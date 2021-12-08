@@ -7,6 +7,6 @@ npm install to-canvas
 ```
 
 # usage
-```
+```js
 const canvas = toCanvas(data);
 ```
