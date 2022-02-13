@@ -1,6 +1,6 @@
 {
   "name": "to-canvas",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Convert Almost Anything to an HTML Canvas.",
   "main": "to-canvas.js",
   "unpkg": "to-canvas.min.js",
