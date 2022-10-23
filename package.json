@@ -11,7 +11,7 @@
     "to-canvas.min.js"
   ],
   "scripts": {
-    "build": "npx browserify ./to-canvas.js > ./to-canvas.min.js",
+    "build": "npx webpack ./to-canvas.js --output-path=$PWD && mv main.js to-canvas.min.js",
     "test": "npx srvd --debug"
   },
   "repository": {
@@ -35,5 +35,8 @@
   "homepage": "https://github.com/DanielJDufour/to-canvas#readme",
   "dependencies": {
     "to-image-data": "^0.0.2"
+  },
+  "devDependencies": {
+    "srvd": "^0.4.0"
   }
 }
